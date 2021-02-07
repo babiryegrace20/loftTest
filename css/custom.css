@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(240, 232, 232, 0.671);
+  /* overflow: auto; */
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+#firstSection {
+  margin-top: 3rem;
+}
+section {
+  background-color: white;
+  overflow: auto;
+  height: 20rem;
+  align-content: center;
+  align-items: justify;
+  padding: 3rem;
+}
+#secondSection {
+  margin-top: 5rem;
+}
+#thirdSection {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.header {
+  text-align: center;
+  padding-top: 2rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 100px;
+  overflow: hidden;
+}
+/* @media (max-width: 768px) {
+  section {
+    padding: 1rem;
+  }
+} */
+.container-fluid {
+  position: relative;
+}
