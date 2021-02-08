@@ -8,10 +8,27 @@ body {
 #firstSection {
   margin-top: 3rem;
 }
+.scroll {
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  background: darkgray;
+}
+.scroll2 {
+  position: sticky;
+  top: 130px;
+  width: 100%;
+  background: wheat;
+}
+.scroll3 {
+  position: sticky;
+  top: 170px;
+  width: 100%;
+  background: black;
+}
+
 section {
   background-color: white;
-  overflow: auto;
-  height: 20rem;
   align-content: center;
   align-items: justify;
   padding: 3rem;
@@ -27,13 +44,11 @@ section {
   text-align: center;
   padding-top: 2rem;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
+  background: rgba(240, 232, 232);
+  z-index: 10;
   height: 100px;
-  overflow: hidden;
-  background-color: rgba(240, 232, 232, 0.671);
-  z-index: 2;
-  margin-bottom: 3rem;
 }
 /* @media (max-width: 768px) {
   section {
