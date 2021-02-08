@@ -31,6 +31,9 @@ section {
   top: 0;
   height: 100px;
   overflow: hidden;
+  background-color: rgba(240, 232, 232, 0.671);
+  z-index: 2;
+  margin-bottom: 3rem;
 }
 /* @media (max-width: 768px) {
   section {
